@@ -14,7 +14,8 @@ const IndexPage = () => (
             height: '540px',
             }}
   >
-    welcome to the OutRoar
+    <h1>OUTROAR</h1>
+    <p>Chelsea, Fifa, All Things Football</p>
   </div>
   </div>
 )
