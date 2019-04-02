@@ -1,12 +1,15 @@
 import React from 'react'
-import Link from 'gatsby'
+import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
-const Post = ({ title, author, path, date, body}) => {
+const Post = ({ title, author, path, date, body, fluid}) => {
     return (
         <div>
-            <h3>{title}</h3>
+            <Img fluid={fluid} />
+            <h3><Link to={path}>{title}</Link></h3>
             <small>Posted by {author} on {date}</small>
             <p>{body}</p>
+            <Link to={path}>Read More</Link>
         </div>       
     )
 }
