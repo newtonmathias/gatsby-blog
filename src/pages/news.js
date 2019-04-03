@@ -21,6 +21,7 @@ const News = () =>  (
                 date={node.frontmatter.date}
                 body={node.excerpt}
                 fluid={node.frontmatter.image.childImageSharp.fluid}
+                tags={node.frontmatter.tags}
               />
             ))}
           </div>
@@ -42,6 +43,7 @@ const newsQuery = graphql`
             date(formatString: "MMM Do YYYY")
             author
             path
+            tags
             image{
               childImageSharp{
                 fluid(maxWidth: 600){
