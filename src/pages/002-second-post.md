@@ -2,7 +2,6 @@
 title: 'Transfer Ban'
 date:  2019-03-25
 author: 'Newton Mathias'
-path: '/second-post'
 image: '../images/hazard.jpeg'
 tags:
 - opinions

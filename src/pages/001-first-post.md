@@ -2,7 +2,6 @@
 title: 'First Post- Introduction'
 date:  2019-03-25
 author: 'Newton Mathias'
-path: '/first-post'
 image: '../images/eden.jpeg'
 tags:
 - transfers

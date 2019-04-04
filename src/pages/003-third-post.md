@@ -2,7 +2,6 @@
 title: 'International Break'
 date:  2019-03-25
 author: 'Newton Mathias'
-path: '/third-post'
 image: '../images/legends.jpeg'
 tags:
 - matchday
