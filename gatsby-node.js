@@ -1,4 +1,5 @@
 const { slugify } = require('./src/utility/utilityFunction')
+const path = require('path')
 
 exports.onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions
@@ -14,14 +15,13 @@ exports.onCreateNode = ({ node, actions }) => {
 
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions;
-    const singlePostTemplate = post.resolve('.src/templates/single-post')
+    const singlePostTemplate = post.resolve('.src/templates/single-post.js')
 
     return graphql(`
         {
             allMarkdownRemark{
                 edges{
                   node{
-                    id
                     frontmatter{
                       author
                     }
