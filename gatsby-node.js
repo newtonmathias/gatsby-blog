@@ -15,7 +15,7 @@ exports.onCreateNode = ({ node, actions }) => {
 
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions;
-    const singlePostTemplate = post.resolve('.src/templates/single-post.js')
+    const singlePostTemplate = path.resolve('src/templates/single-post.js')
 
     return graphql(`
         {

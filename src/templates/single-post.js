@@ -5,7 +5,7 @@ import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { slugify } from '../utility/utilityFunction'
 
-const SinglePost = () => {
+const SinglePost = ({ data }) => {
     const post = data.markdownRemark.frontmatter
   return (
     <Layout>

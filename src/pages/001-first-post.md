@@ -1,5 +1,5 @@
 ---
-title: 'First Post- Introduction'
+title: 'First Post - Introduction'
 date:  2019-03-25
 author: 'Newton Mathias'
 image: '../images/eden.jpeg'
