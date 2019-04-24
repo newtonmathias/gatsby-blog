@@ -1,19 +1,65 @@
 import React from 'react';
 import '../components/styles/TopStories.css'
+import { graphql, StaticQuery } from 'gatsby';
+import Post from '../components/Post'
 
 
 const TopStories = () => {
   return (
     <div className="top-stories">
       <h1>Top Stories</h1>
-      <div className="top-stories-content">
-          <div className="top-stories-element">Hazard</div>
-          <div className="top-stories-element">Higuain</div>
-          <div className="top-stories-element">Hudson</div>
-          <div className="top-stories-element">Loftus</div>
-      </div>
+      <StaticQuery
+        query={newsQuery}
+        render={data => {
+        return (
+          <div className="top-stories-content">
+            {data.allMarkdownRemark.edges.map(({ node }) => (
+              <Post
+              className="top-stories-element"
+                key={node.id}
+                title={node.frontmatter.title}
+                author={node.frontmatter.author}
+                slug={node.fields.slug}
+                date={node.frontmatter.date}
+                body={node.excerpt}
+                fluid={node.frontmatter.image.childImageSharp.fluid}
+                tags={node.frontmatter.tags}
+              />
+            ))}
+          </div>
+        )
+        }}
+        />
     </div>
   )
 }
 
+const newsQuery = graphql`
+  query{
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC}) {
+      edges{
+        node{
+          id
+          frontmatter{
+            title
+            date(formatString: "MMM Do YYYY")
+            author
+            tags
+            image{
+              childImageSharp{
+                fluid(maxWidth: 600){
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          fields{
+            slug
+          }
+          excerpt
+        }
+      }
+    }
+  }
+  `
 export default TopStories
