@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/styles/TopStories.css'
 import { graphql, StaticQuery } from 'gatsby';
-import Post from '../components/Post'
+import Thumbnail from '../components/Thumbnail'
 
 
 const TopStories = () => {
@@ -14,8 +14,7 @@ const TopStories = () => {
         return (
           <div className="top-stories-content">
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <Post
-              className="top-stories-element"
+              <Thumbnail
                 key={node.id}
                 title={node.frontmatter.title}
                 author={node.frontmatter.author}

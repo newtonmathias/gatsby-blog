@@ -1,12 +1,11 @@
 ---
-title: 'International Break'
+title: 'Eden Hazard – Undoubtably Amazing'
 date:  2019-03-25
 author: 'Newton Mathias'
-image: '../images/legends.jpeg'
+image: '../images/goat.jpeg'
 tags:
 - matchday
 
 ---
-Ross Barkley’s impressive England form shows what he can do in the right setup
-Ross Barkley’s impressive England form shows what he can do in the right setup
-Ross Barkley’s impressive England form shows what he can do in the right setup
+One of the main slurs we’ve heard about Hazard at times is that ‘he doesn’t score enough’ or he’s ‘inconsistent’ but I think it’s clear this is opposition fans grasping at straws, surely? The Belgian is a regular goal scorer in the premier league ever since signing. Nine goals in his first season was not bad at all for a midfielder aged just 21 and he went on to score 14 in the following two seasons and then 16 league goals in one season under Antonio Conte. These figures get thrown around and compared to the likes of Harry Kane, Aguero and other undoubtably brilliant footballers who do score more goals but there’s one thing to remember: Hazard is not a striker and how many midfielders or wingers are around in the premier league consistently scoring around the 15 goal tally season after season?
+Another thing to remember is that Eden has played almost his entire career with the Blues under defensive minded coaches with Rafa Benitez, Jose Mourinho and Antonio Conte, who are all notoriously cautious in their approach, taking charge of the blues. Despite this he managed to contribute hugely and be Chelsea’s main attacking threat under each manager which demonstrates his influence in the final third. Hazard currently has 13 goals and 11 assists to his name in the premier league this season giving him a combined goal contribution of 24 which can’t be bettered by any other player, despite missing out over the first four or five matches of the season following the World Cup. After scoring on his 100th cap for Belgium his record for the national side stands at 30 goals, which is impressive if you compare that to the likes of Raheem Sterling who has 7 goals in over 45 games for England and Roberto Firmino who has just managed 8 Brazil goals in 30 appearances. No matter what stage Eden Hazard plays on he sweeps the floor with opposition and puts in continuous world class displays but at times comes out with nothing to show for it following Belgium’s World Cup exits and similarly Chelsea over the years in the champions league but one man cannot be expected to carry two full teams.
