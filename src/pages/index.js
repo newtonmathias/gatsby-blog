@@ -25,9 +25,11 @@ const IndexPage = () => (
       </div>
     </div>
   </div>
-  <TopStories />
-  <TwoColGrid />
-  <Subscribe />
+  <div className="wrapper">
+      <TopStories />
+      <TwoColGrid />
+      <Subscribe />
+  </div>
   <Footer />
   </div>
 )
