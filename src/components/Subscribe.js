@@ -8,12 +8,10 @@ const Subscribe = () => {
         <div className="subscribe-smedia">
            <p>Follow us for updates</p> 
         </div>
-        <div className="subscribe-email">
-           <form>
-            <input type="text"/>
+        <form className="subscribe-email">
+            <input className="input-email" type="text" placeholder="Email address"/>
             <button>subscribe</button>
-        </form> 
-        </div>
+        </form>
     </div>
   )
 }
