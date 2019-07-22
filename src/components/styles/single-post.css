@@ -1,0 +1,26 @@
+.content {
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: normal;
+}
+.title {
+    text-align: center;
+    color: #2a2a72;
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.text-info {
+    color: #2a2a72;
+}
+.tags {
+    list-style: none;
+}
+.tag-info {
+    color: #ffffff;
+    background-color: #2a2a72;
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+}

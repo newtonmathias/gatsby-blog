@@ -9,11 +9,4 @@
     grid-gap: 20px;
   }
   
-  .top-stories-element {
-    margin:  40x;
-    background: #353535;
-    max-height: 430px;
-    animation: animateGrid 0.5s;
-    overflow: hidden;
-  }
   

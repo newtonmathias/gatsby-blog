@@ -1,0 +1,17 @@
+.thumbnail {
+    position: relative;
+    transform: translateY(0px);
+    transition: .5s;
+}
+.thumbnail:hover { 
+    transform: translateY(-5px);
+    transition: .5s;
+}
+.thumbnail-text {
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    text-decoration: none;
+}

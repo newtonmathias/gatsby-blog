@@ -4,21 +4,22 @@ import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { slugify } from '../utility/utilityFunction'
+import '../components/styles/single-post.css'
 
 const SinglePost = ({ data }) => {
     const post = data.markdownRemark.frontmatter
   return (
     <Layout>
         <SEO title={post.title} />
-        <h1>{post.title}</h1>
+        <h1 className="title">{post.title}</h1>
         <Img fluid={post.image.childImageSharp.fluid} />
-        <span>{post.date}</span>
-        <span>{post.author}</span>
-        <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />
-        <ul>
+        <span className="text-info">{post.date}</span> by{' '}
+        <span className="text-info">{post.author}</span>
+        <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />
+        <ul className="tags">
             {post.tags.map(tag => (
                 <li key={tag}>
-                    <Link to={`/tag/${slugify(tag)}`}>
+                    <Link className="tag-info" to={`/tag/${slugify(tag)}`}>
                         {tag}
                     </Link>
                 </li>
