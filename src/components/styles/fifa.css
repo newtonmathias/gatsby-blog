@@ -1,21 +1,21 @@
-.match-center {
+.fifa {
     text-align: center;
     transition: all .5s ease-in-out;
   }
 
-  .match-center-text {
+  .fifa-text {
     font-family: 'Abel', sans-serif;
     font-size: 22px;
     line-height: 26px;
     color: #fff;
   }
 
-  .match-center-btn {
+  .fifa-btn {
     border-radius: 20px;
     background: #fff;
     color: #111;
     padding: 8px 28px;
   }
-  .match-center:hover { 
+  .fifa:hover { 
       transform: scale(1.1);
      }

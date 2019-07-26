@@ -13,8 +13,10 @@ const MatchCenter = () => {
             height: '540px',
             }}
     >
-    <p>Match reviews and recap</p>
-    <button>visit</button>
+    <div>
+      <p className="match-center-text">Match reviews and recap</p>
+      <button className="match-center-btn">visit</button>
+    </div>
       
     </div>
   )

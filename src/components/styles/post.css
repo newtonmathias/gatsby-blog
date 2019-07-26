@@ -7,8 +7,30 @@
     margin-bottom: 1.5rem;
     transform: translateY(0px);
     transition: .5s;
+    border-top: 1px solid #ddd;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
     
 }
+.post-img {
+    background: #000;
+    line-height: 0;
+    margin-right: 3.11041990669%;
+    overflow: hidden;
+    width: 34.2146189736%;
+    float: left;
+    position: relative;
+}
+.post-text {
+    width: 62.6749611198%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+
+
 
 .post:hover {
     transform: translateY(-5px);
