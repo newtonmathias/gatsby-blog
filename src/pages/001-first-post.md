@@ -2,7 +2,7 @@
 title: 'Eden Hazard receives 2019 PFA Player of the Year nomination'
 date:  2019-03-25
 author: 'Newton Mathias'
-image: '../images/eden.jpeg'
+image: '../images/team.jpeg'
 tags:
 - transfers
 ---

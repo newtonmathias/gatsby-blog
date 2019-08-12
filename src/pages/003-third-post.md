@@ -2,7 +2,7 @@
 title: 'Eden Hazard – Undoubtably Amazing'
 date:  2019-03-25
 author: 'Newton Mathias'
-image: '../images/goat.jpeg'
+image: '../images/team.jpeg'
 tags:
 - matchday
 

@@ -2,10 +2,9 @@ import React from "react"
 import background from '../images/home.jpg'
 import Header from "../components/header"
 import TopStories from '../components/TopStories'
-import MatchCenter from '../components/MatchCenter'
 import Subscribe from '../components/Subscribe'
 import Footer from '../components/Footer'
-import Fifa from '../components/fifa'
+import TwoColumnGrid from '../components/TwoColumnGrid'
 import '../components/styles/index.css'
 
 const IndexPage = () => (
@@ -28,8 +27,6 @@ const IndexPage = () => (
   </div>
   <div className="wrapper">
       <TopStories />
-      <MatchCenter />
-      <Fifa />
       <Subscribe />
   </div>
   <Footer />

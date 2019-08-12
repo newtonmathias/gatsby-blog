@@ -2,9 +2,8 @@
 title: 'EDEN HAZARD’S JAW DROPPING MOMENTS MAKE HIM A RARE BEAST'
 date:  2019-03-25
 author: 'Newton Mathias'
-image: '../images/hazard.jpeg'
+image: '../images/team.jpeg'
 tags:
-- opinions
 - news
 ---
 
