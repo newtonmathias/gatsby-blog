@@ -15,18 +15,8 @@ const SinglePost = ({ data }) => {
         <Img fluid={post.image.childImageSharp.fluid} />
         <span className="text-info">{post.date}</span> by{' '}
         <span className="text-info">{post.author}</span>
-        <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />
-        <ul className="tags">
-            {post.tags.map(tag => (
-                <li key={tag}>
-                    <Link className="tag-info" to={`/tag/${slugify(tag)}`}>
-                        {tag}
-                    </Link>
-                </li>
-            ))}
-        </ul>
-
-    </Layout>
+        <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />      
+   </Layout>
   )
 }
 

@@ -1,10 +1,13 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
 import './App.css';
+
 const Header = () => (
   <nav className="navbar">
-            <span className="navbar-toggle" id="navbar-toggle">
+      <span className="navbar-toggle" id="navbar-toggle">
                 <i className="fas fa-bars"></i>
             </span>
                     <Link to="/" className="logo">The OutRoar</Link>

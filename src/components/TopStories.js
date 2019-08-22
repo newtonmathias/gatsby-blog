@@ -14,7 +14,7 @@ const TopStories = () => {
         return (
           <div className="top-stories-content">
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <Thumbnail
+              <Thumbnail className="element"
                 key={node.id}
                 title={node.frontmatter.title}
                 author={node.frontmatter.author}
