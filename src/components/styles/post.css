@@ -30,9 +30,6 @@
     line-height: 1.6em;
 }
 
-
-
-
 .post:hover {
     transform: translateY(-5px);
     transition: .5s;
@@ -42,3 +39,11 @@
     margin-bottom: 1.5rem;
 
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .post-text {
+        display: none;
+    }
+    .post h3 {
+        margin: 0;
+    }
+  }

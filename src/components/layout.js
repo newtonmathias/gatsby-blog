@@ -28,13 +28,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer
-            style={{
-              textAlign: `centre`,
-            }}
-          >
-            © {new Date().getFullYear()}, OutRoar, Inc. All rights reserved.
-          </footer>
+
         </div>
       </>
     )}

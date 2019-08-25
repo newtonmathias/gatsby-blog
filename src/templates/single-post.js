@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { slugify } from '../utility/utilityFunction'
+import Footer from '../components/Footer'
 import '../components/styles/single-post.css'
 
 const SinglePost = ({ data }) => {
@@ -15,7 +15,8 @@ const SinglePost = ({ data }) => {
         <Img fluid={post.image.childImageSharp.fluid} />
         <span className="text-info">{post.date}</span> by{' '}
         <span className="text-info">{post.author}</span>
-        <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />      
+        <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />
+        <Footer />      
    </Layout>
   )
 }
