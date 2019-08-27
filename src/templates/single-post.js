@@ -4,6 +4,10 @@ import SEO from "../components/seo"
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Footer from '../components/Footer'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import '../components/styles/single-post.css'
 
 const SinglePost = ({ data }) => {
@@ -15,6 +19,9 @@ const SinglePost = ({ data }) => {
         <Img fluid={post.image.childImageSharp.fluid} />
         <span className="text-info">{post.date}</span> by{' '}
         <span className="text-info">{post.author}</span>
+        <span><a href="https://www.twitter.com" className="twitter social">
+  <FontAwesomeIcon icon={faTwitter} /></a></span>
+
         <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />
         <Footer />      
    </Layout>

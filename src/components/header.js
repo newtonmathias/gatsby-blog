@@ -40,7 +40,7 @@ class Header extends Component {
                       <Link className="nav-link" to="/fifa">Fifa</Link>  
                       <Link className="nav-link" to="/contact">Contact</Link>
                     </div>
-                    <FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass}/>
+                    <FontAwesomeIcon icon={faBars} className='top-menu-icon' onClick={this.setToggleTopMenuClass} style ={{color: "#FFF"}}/>
                     <div className='clear-fix' />
                 </div>
             </div>
