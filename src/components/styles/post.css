@@ -11,7 +11,7 @@
     float: left;
     padding: 20px 0;
     width: 100%;
-    
+     
 }
 .post-img {
     background: #000;
@@ -39,11 +39,34 @@
     margin-bottom: 1.5rem;
 
 }
+.post a {
+    font-weight: bold;
+    font-size: 1.51572rem;
+    line-height: 1.25;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+  }
+  
+  .posta:active {
+    color: #2a2a72;
+  }
+  
+  .post a:visited {
+    color: #2a2a72;
+  }
 @media (min-width: 320px) and (max-width: 480px) {
     .post-text {
         display: none;
     }
     .post h3 {
         margin: 0;
+    }
+    .post a {
+        font-size: 16px;
+        text-transform: uppercase;
     }
   }

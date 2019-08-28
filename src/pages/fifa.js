@@ -8,7 +8,7 @@ const fifa = () => {
   return (
     <Layout>
       <h3>Welcome to the Fifa section</h3>
-      <p>
+      <p className="contact-text">
       This will be all about Fifa20 tips and tricks to help you improve your gaming.
         we will also take a look at all things happening in the FIFA community. We will also
         review gameplay, patches and new features in the game.

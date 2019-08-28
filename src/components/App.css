@@ -1,6 +1,16 @@
 * {
     margin: 0;
 }
+.heading-text {
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    color: #2a2a72;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
 .top-menu {
     font-size: 18px;
     background: #2a2a72;

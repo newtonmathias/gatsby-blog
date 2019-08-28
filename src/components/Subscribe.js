@@ -12,7 +12,7 @@ const Subscribe = () => {
   return (
     <div className='subscribe'>
         <div className="subscribe-smedia">
-           <p>Stay Tuned For All The News</p> 
+           <p className="contact-text">Stay Tuned For All The News</p> 
            <a
   href="https://www.facebook.com/"
   className="facebook social"

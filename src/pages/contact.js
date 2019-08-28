@@ -1,4 +1,6 @@
 import React from 'react'
+import '../components/styles/contact.css' 
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -11,9 +13,9 @@ import Layout from "../components/layout"
 const Contact = () => {
   return (
     <Layout>
-    <div>
+    <div className="contact">
         <div className="subscribe-smedia">
-           <p>Follow us for updates</p> 
+           <p className="contact-text">You can React us through the following social media accounts</p> 
            <a
   href="https://www.facebook.com/"
   className="facebook social"

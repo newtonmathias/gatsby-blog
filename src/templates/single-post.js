@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import Footer from '../components/Footer'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

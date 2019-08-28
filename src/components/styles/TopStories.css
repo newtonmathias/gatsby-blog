@@ -18,4 +18,14 @@
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     
   }
-  
+  @media (min-width: 320px) and (max-width: 480px) {
+    top-stories h1 {
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: .3px;
+      text-transform: uppercase;
+      color: #2a2a72;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+  }

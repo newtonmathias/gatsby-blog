@@ -7,7 +7,7 @@ import Thumbnail from '../components/Thumbnail'
 const TopStories = () => {
   return (
     <div className="top-stories">
-      <h1>Top Stories</h1>
+      <h1 className="heading-text">Top Stories</h1>
       <StaticQuery
         query={newsQuery}
         render={data => {

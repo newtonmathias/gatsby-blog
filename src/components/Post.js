@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import '../components/styles/post.css'
 
@@ -8,8 +7,8 @@ import '../components/styles/post.css'
 const Post = ({ title, author, slug, date, body, fluid, tags}) => {
     return (
         <div className="post">
-        <Link to={slug}><Img className="post-img" fluid={fluid} /></Link>
-        <h3><Link className="post-title" to={slug}>{title}</Link></h3>
+        <a href={slug}><Img className="post-img" fluid={fluid} /></a>
+        <h3><a className="post-title" href={slug}>{title}</a></h3>
             <small>{date}</small>
             <p className="post-text">{body}</p>
         </div>
