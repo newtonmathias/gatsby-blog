@@ -45,6 +45,14 @@
   line-height: 26px;
   color: #fff;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .home {
+    height: 400px;
+  }
+  .home-text {
+    bottom: 10px;
+  }
+}
 
 @media screen and (max-width: 720px) {
   .home-text {
