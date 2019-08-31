@@ -34,15 +34,12 @@
     transform: translateY(-5px);
     transition: .5s;
 }
-.post-title {
-    text-decoration: none;
-    margin-bottom: 1.5rem;
 
-}
 .post a {
     font-weight: bold;
     font-size: 1.51572rem;
     line-height: 1.25;
+    margin-bottom: 1.5rem;
     text-decoration: none;
     text-transform: capitalize;
   }
@@ -67,6 +64,6 @@
     }
     .post a {
         font-size: 16px;
-        text-transform: uppercase;
+        text-transform: capitalize !important;
     }
   }
