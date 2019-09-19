@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from 'gatsby-image'
+import { graphql } from 'gatsby'
 import Footer from '../components/Footer'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

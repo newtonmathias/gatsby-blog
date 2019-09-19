@@ -29,4 +29,17 @@ a.social {
     color: black;
   }
 
-
+  @media only screen and (max-width: 599px)
+  {.subscribe {
+      padding: 34px 0 60px;
+      border-style: solid;
+  }}
+  
+  @media only screen and (max-width: 1023px)
+  {.subscribe {
+      padding: 40px 0;
+  }}
+  @media only screen and (max-width: 1440px)
+{.subscribe {
+    padding: 40px 0 100px;
+} } 
