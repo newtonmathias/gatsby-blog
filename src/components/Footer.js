@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="footer">
     <div className="copyright">
-          &copy; 2019 The OutRoar
+          &copy; 2020 The OutRoar
     </div>
     <div className="footer-bottom">
     <ul id="footer-links" >
