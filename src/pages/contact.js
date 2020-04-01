@@ -15,18 +15,18 @@ const Contact = () => {
     <Layout>
     <div className="contact">
         <div className="subscribe-smedia">
-           <p className="contact-text">You can React us through the following social media accounts</p> 
+           <p className="contact-text">You can Reach us through the following social media accounts</p> 
            <a
   href="https://www.facebook.com/"
   className="facebook social"
 >
   <FontAwesomeIcon icon={faFacebook} size="2x" />
 </a>
-<a href="https://www.twitter.com" className="twitter social">
+<a href="https://twitter.com/cfcOutroar" className="twitter social">
   <FontAwesomeIcon icon={faTwitter} size="2x" />
 </a>
 <a
-  href="https://www.instagram.com/"
+  href="https://www.instagram.com/outroar_football/"
   className="instagram social"
 >
   <FontAwesomeIcon icon={faInstagram} size="2x" />
