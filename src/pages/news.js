@@ -8,7 +8,7 @@ import Post from '../components/Post'
 const News = () =>  (
     <Layout>
       <SEO title="NEWS" keywords={['gatsby', 'application', 'react']}/>
-      <h1 className="heading-text">Top News</h1>
+      <h1 className="heading-text">Recent Posts</h1>
       <StaticQuery
         query={newsQuery}
         render={data => {
