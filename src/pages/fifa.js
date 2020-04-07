@@ -1,4 +1,5 @@
 import React from 'react'
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { Link } from 'gatsby'
 
@@ -7,6 +8,7 @@ import { Link } from 'gatsby'
 const fifa = () => {
   return (
     <Layout>
+      <SEO title="FIFA" keywords={['gatsby', 'application', 'react']}/>
       <h3>Welcome to the Fifa section</h3>
       <p className="contact-text">
       This will be all about Fifa20 tips and tricks to help you improve your gaming.
