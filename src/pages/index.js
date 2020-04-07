@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 import background from '../images/home.jpg'
 import Header from "../components/header"
 import TopStories from '../components/TopStories'
@@ -8,6 +9,7 @@ import '../components/styles/index.css'
 
 const IndexPage = () => (
   <div>
+    <SEO title="" keywords={['gatsby', 'application', 'react']}/>
     <Header  />
   <div className="home"
   style={{  background:

@@ -1,4 +1,5 @@
 import React from 'react'
+import SEO from "../components/seo"
 import '../components/styles/contact.css' 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,6 +14,7 @@ import Layout from "../components/layout"
 const Contact = () => {
   return (
     <Layout>
+          <SEO title="CONTACT" keywords={['gatsby', 'application', 'react']}/>
     <div className="contact">
         <div className="subscribe-smedia">
            <p className="contact-text">You can Reach us through the following social media accounts</p> 
