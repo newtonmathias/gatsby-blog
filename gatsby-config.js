@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `The OutRoar`,
-        titleTemplate: "%s - OutRoar",
+    titleTemplate: `%s - OutRoar`,
     description: `Chelsea, Fifa, All Things Football.`,
     author: `Newton Mathias`,
-    url: "https://www.http://theoutroar.com/", // No trailing slash allowed!
+    url: "https://www.http://theoutroar.com", // No trailing slash allowed!
     image: "/src/images/gatsby-icon.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@occlumency",
+    twitterUsername: "@cfcOutroar",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
