@@ -19,7 +19,7 @@ const SinglePost = ({ data }) => {
         <Img fluid={post.image.childImageSharp.fluid} />
         <span className="text-info">{post.date}</span> by{' '}
         <span className="text-info">{post.author}</span>
-        <span><a href="https://www.twitter.com" className="twitter social">
+        <span><a href="https://www.twitter.com/cfcOutroar" className="twitter social">
   <FontAwesomeIcon icon={faTwitter} /></a></span>
 
         <div className="content" dangerouslySetInnerHTML={{__html: data.markdownRemark.html }} />
