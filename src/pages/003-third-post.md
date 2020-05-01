@@ -4,7 +4,7 @@ date:  2020-04-18
 author: 'OutRoar'
 image: '../images/chelsea-press.jpg'
 tags:
-- fifa
+- Transfers
 ---
 Next season will be Frank Lampard’s real test as Chelsea manager. The signings frank will make will be crucial and his success at Chelsea may depend on it. The current Chelsea squad is not good enough and cannot do well against good teams in the premier league like Manchester City and Liverpool. Making the right signings can and will bring good things to Chelsea. We all saw what happened with Klopp’s Liverpool. They made some good signings like Alisson and Virgil van Dijk and later went on to win the champions league. Here are some of the players I think Chelsea should sign before the next season:
 ### Jadon Sancho

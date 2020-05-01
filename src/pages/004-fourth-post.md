@@ -4,7 +4,7 @@ date:  2020-04-22
 author: 'OutRoar'
 image: '../images/coutinho.jpg'
 tags:
-- fifa
+- Transfers
 ---
 
 It's been reported that Coutinho has been offered to Chelsea among other clubs. This move could see the Brazilian winger make his return to the premier league. The La Liga giants Barcelona signed Phillipe Coutinho from Liverpool back in January 2018 for 145m. Currently, Coutinho is on loan at Bayern Munich until the end of the season. Bayern Munich is not interested in signing the winger permanently.
