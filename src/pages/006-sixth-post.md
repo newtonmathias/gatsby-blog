@@ -1,0 +1,16 @@
+---
+title: 'Fabregas at Chelsea'
+date:  2020-05-04
+author: 'OutRoar'
+image: '../images/fab.jpg'
+tags:
+- Player
+---
+As Cesc Fabregas celebrates his birthday today, I decided to revisit his career at Chelsea. The Spaniard turns 33 years old today and he has had a career that most players can only dream of. Fabregas is best known for his passing and chance creation. Fabregas has provided some of the best assists in the world of football. He assisted the most important goal in Spain's history which made him a world champion and led Spain to their first-ever World cup trophy.
+### Pre Chelsea years.
+Fabregas was discovered at La  Masia, Barcelona’s youth academy. At the age of 16 years, he was signed by Premier League club Arsenal back in 2003. He later established himself as an import player at the club despite his young age and lack of experience. He made 304 appearances for arsenal scoring 57 goals and registering 92 assists. He won the Fa cup with Arsenal in 2005. In the season 2007/08, Fabregas had the most assists in the premier league. In August 2011 Fabregas returned to Spain after he signed for Barcelona. During his 3-year spell at Barcelona, Fabregas won a La Liga title, the Copa del Rey, the FIFA Club World cup, the UEFA Super Cup, and 2 Spanish Super Cups. Internationally, Fabregas has also done well. He is a world cup winner and a 2-time European champion.
+### The Chelsea years.
+Cesc Fabregas returned to the premier league back in June 2014 when he signed for Chelsea. He went on to cement his legacy as one of the best Spaniards to ever grace the premier league. During his first season at the club, Fabregas helped secure the Premier League title and the league cup. His partnership with Diego Costa during his first year was unreal. He played 34 premier league games registering 19 assists and 3 goals. He also featured in the champions league, EFL, and the FA. The next season wasn’t so good as the previous one as Chelsea finished at position 10 and missed out on the champions league. Fabregas played 37 matches registering 5 goals and 7 assists. The next season Chelsea bounced back stronger with a new manager Antonio Conte. Even though Conte’s style of play was different from what Fabregas was used to, he managed to adapt. Speaking about Conte in a twitter Q&A he said, “I always said that coming back and change around his mind about me was one of the most satisfying things I’ve done in my career. I had to be silent and sweat a lot though.”  During Conte's first season, Fabregas made 29 appearances in the premier league, assisting 12 goals and scoring 8 goals. He helped Chelsea secure the premier league title. Fabregas also featured in FA and EFL. The 2017/2018 which was Conte last season at the club, Chelsea and Fabregas won the FA cup.
+In 2018 Fabregas became a Guinness world record holder for Fastest time to reach 100 assists in the Premier League, reaching the tally in 293 games.
+January 2019 Fabregas left Chelsea after a very successful spell at the club and joined Monaco.
+As a Chelsea fan, I loved watching Fabregas at Chelsea. His dominance in the premier league helped Chelsea win titles. He is a team player and is always willing to learn and adapt to new play styles. He is one of the best playmakers of all time. I wish all the best in his career.
