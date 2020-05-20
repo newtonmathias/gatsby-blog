@@ -4,7 +4,7 @@ import '../components/styles/contact.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
+  faYoutube,
   faTwitter,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
@@ -19,11 +19,11 @@ const Contact = () => {
         <div className="subscribe-smedia">
            <p className="contact-text">You can Reach us through the following social media accounts</p> 
            <a
-  href="https://www.facebook.com/"
-  className="facebook social"
->
-  <FontAwesomeIcon icon={faFacebook} size="2x" />
-</a>
+    href="https://www.youtube.com/channel/UCWEufhV3nWKCXNlTYnNHu4g/"
+    className="youtube social"
+ >
+    <FontAwesomeIcon icon={faYoutube} size="2x" color ="red" />
+ </a>
 <a href="https://twitter.com/cfcOutroar" className="twitter social">
   <FontAwesomeIcon icon={faTwitter} size="2x" />
 </a>
