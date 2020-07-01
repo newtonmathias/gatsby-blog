@@ -39,6 +39,16 @@
   color: #fff;
 }
 
+.home-text h2 {
+  position: relative;
+  font-size: 4em;
+  color: #444;
+}
+
+.home-text h2 span {
+  color: #0f0;
+  display: none;
+}
 .home-text p {
   font-family: 'Abel', sans-serif;
   font-size: 22px;

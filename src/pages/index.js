@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
-import background from '../images/home.jpg'
+import background from '../images/game.jpg'
 import Header from "../components/header"
 import TopStories from '../components/TopStories'
 import Subscribe from '../components/Subscribe'
@@ -22,8 +22,12 @@ const IndexPage = () => (
   >
     <div className="home-content">
       <div className="home-text">
-        <h1>OUTROAR</h1>
-    <p>Chelsea, Fifa, All Things Football</p>
+        <h1>READY FOR GAME</h1>
+        <h2 id ="text">All THINGS FIFA</h2>
+        <p>Get the latest, exclusive news about FIFA. Articles featured include fut trading, 
+          player reviews, tricks and tips, Esports and Gameplay.
+        </p>
+        
       </div>
     </div>
   </div>
